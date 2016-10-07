@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+span
+{
+    font-size:1.5vw;
+    color:white;
+    margin:0 1.5vw;
+    padding:2.1vw 2.1vw;
+    display:inline-block;
+    width:8vw;
+    border-radius:10px;
+    text-align:center;
+    background:rgba(0,0,0,0.75);
+	box-shadow:inset 0 -5px 0 rgba(217,105,80,0.7)
+}
+span:after
+{
+    font-size:1vw;
+    display:block;
+    margin:3px 0 -1px;
+    opacity:.8
+}
+span:nth-of-type(1):after
+{
+    content:"Month"
+}
+span:nth-of-type(2):after
+{
+    content:"Days"
+}  
+span:nth-of-type(3):after
+{
+    content:"Hrs"
+}
+span:nth-of-type(4):after
+{
+    content:"Mins"
+}
+span:nth-of-type(5):after
+{
+    content:"Secs"
+}
