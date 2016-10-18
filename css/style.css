@@ -19,7 +19,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 120px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
