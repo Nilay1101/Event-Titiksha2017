@@ -276,7 +276,3 @@ ul {
   -webkit-transform: rotate(0);
           transform: rotate(0);
 }
-.logo img:hover {
-  -webkit-transform: rotate(180deg) scale(1.1);
-          transform: rotate(180deg) scale(1.1);
-}
