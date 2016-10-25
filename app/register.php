@@ -20,8 +20,8 @@ $pin = strip_tags(htmlspecialchars($_POST['pin']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$to = 'nilayjayswalnj@gmail.com'; 
-$email_subject = "TITIKSHA Registartion Form:  $name";
+$to = 'titiksha.registration@smvdu.ac.in'; 
+$email_subject = "TITIKSHA Registration Form:  $name";
 $email_body = "You have received a new registartion update.\n\n"."Here are the details:\n\nName: $name\n\nGender: $gender\n\nEmail: $email\n\nInstitution: $ins\n\nPincode: $pin\n\nPhone: $phone\n\nEventID:\n$message";
 $headers = "From: noreply@yourdomain.com\n"; 
 $headers .= "Reply-To: $email";	
