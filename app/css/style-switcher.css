@@ -1,0 +1,45 @@
+#wa-style-switcher {
+	width:200px;
+	position:fixed;
+	left:-200px;
+	top:25%;
+	background-color:#ffffff;
+	border-bottom:1px solid #888888;
+	border-right:1px solid #888888;
+	z-index:9999;
+}
+#wa-style-switcher  span {
+	color: #333333 !important;
+    display: block;
+    font-family: 'oswald';
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#wa-style-switcher select {
+	width:160px;
+	margin-bottom:10px;
+}
+.wa-styleswitcher-head {
+	background: none repeat scroll 0 0 #111111;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Oswald';
+    font-size: 16px;
+    padding: 14px 20px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+	width:250px;
+}
+.wa-styleswitcher-head i.fa-cogs {
+	font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top:16px;
+}
+.wa-styleswitcher-body {
+	padding: 20px 20px;
+	padding-top:15px;
+}

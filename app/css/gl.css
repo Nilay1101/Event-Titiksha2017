@@ -1,0 +1,123 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.imgWrap {
+  cursor:pointer;
+  float: left;
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.imgWrap:last-child {
+  float: left;
+}
+
+.current {
+  width: 36%;
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+     -moz-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+       -o-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.notCurrent {
+  width: 16%;
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+     -moz-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+       -o-transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.current-full {
+  width: 100%;
+  -webkit-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+
+.current-full .full-content {
+  visibility: visible;
+}
+
+.full-content {
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.notCurrent-full {
+  width: 0%;
+  -webkit-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/******************************
+Image Gallery
+******************************/
+.images ul li {
+  float: left;
+  width: 150px;
+  height: 125px;
+  list-style: none;
+  margin: 40px 40px 40px 40px;
+  opacity: 1;
+  box-shadow: #000 0px 0px 5px 0px;
+  -webkit-animation: scale 3s ease-in-out infinite alternate;
+}
+
+.images ul li:hover {
+  opacity: 1.0;
+}
+
+/******************************
+Button Close
+******************************/
+.current-full .close {
+  visibility:visible;
+}
+
+
+.close {
+width: 44px;
+height: 44px;
+line-height: 44px;
+position: absolute;
+right: 0;
+top: 0;
+text-decoration: none;
+text-align: center;
+opacity: 0.65;
+padding: 0 0 18px 10px;
+color: white;
+font-style: normal;
+font-size: 28px;
+font-family: Arial, Baskerville, monospace;
+}
+

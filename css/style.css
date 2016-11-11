@@ -19,7 +19,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 120px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -275,8 +275,4 @@ ul {
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -webkit-transform: rotate(0);
           transform: rotate(0);
-}
-.logo img:hover {
-  -webkit-transform: rotate(180deg) scale(1.1);
-          transform: rotate(180deg) scale(1.1);
 }

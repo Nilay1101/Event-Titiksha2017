@@ -19,11 +19,11 @@ Ti {
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0;
-  font-size: 400px;
+  font-size: 100px;
 }
 @media screen and (min-width: 860px) {
   Ti {
-    font-size: 140px;
+    font-size: 100px;
     line-height: 152px;
   }
 }
